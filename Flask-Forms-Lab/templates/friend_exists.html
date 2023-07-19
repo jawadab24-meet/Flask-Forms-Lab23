@@ -9,11 +9,15 @@
     color: white;
   }
 </style>
+{% if i in fr%}
+<h1> you friends</h1>
+{%else%}
+<h1> he is not you friends </h1>
+{%endif%}
 <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
 
 </head>
 <body>
-
 
 
 </body>
